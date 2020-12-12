@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  background-image: url("images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+}
+
+#head {
+  color: yellow;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.container {
+  width: 400px;
+  overflow: hidden;
+  margin: 50px;
+}
+
+.container .calc {
+  border: 2px solid burlywood;
+  height: 50px;
+  width: 100%;
+  font-size: 25px;
+  line-height: 50px;
+  border-radius: 5px;
+  padding: 0 10px;
+  color: white;
+}
+
+.container .box {
+  width: 25%;
+  height: 50px;
+  border: 1px solid #fff;
+  float: left;
+  font-family: sans-serif;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  transition: all 0.25s ease-in-out;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}
+
+.container .box:hover {
+  background: blueviolet;
+}
+
+.container .box-opr {
+  background: cyan;
+}
+
+.container .box-reset,
+.container .box-clear {
+  width: 50%;
+}
+
+.container .box-reset {
+  background: yellowgreen;
+}
+.container .box-clear {
+  background: rgb(212, 89, 146);
+}

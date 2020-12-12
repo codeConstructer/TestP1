@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Calculator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <body>
+      <div class="container">
+        <p id="head">Simple Calculator</p>
+        <!--Show numbers & calculate-->
+        <div class="calc" id="sc">0</div>
+
+        <!--number div-->
+        <div class="box box-num">0</div>
+        <div class="box box-num">1</div>
+        <div class="box box-num">2</div>
+        <div class="box box-num">3</div>
+        <div class="box box-num">4</div>
+        <div class="box box-num">5</div>
+        <div class="box box-num">6</div>
+        <div class="box box-num">7</div>
+        <div class="box box-num">8</div>
+        <div class="box box-num">9</div>
+        <div class="box box-num">.</div>
+
+        <!--operator div-->
+        <div class="box box-opr">+</div>
+        <div class="box box-opr">-</div>
+        <div class="box box-opr">/</div>
+        <div class="box box-opr">x</div>
+        <div class="box box-opr">=</div>
+
+        <!--reset & clear-->
+        <div class="box box-reset" id="reset">Reset</div>
+        <div class="box box-clear" id="clear">Clear</div>
+      </div>
+
+      <button style="color: blueviolet;" onclick="showMe()" ; id="demo">
+        Which day is today
+      </button>
+
+      <script src="script.js"></script>
+    </body>
+  </head>
+</html>
